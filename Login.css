@@ -25,7 +25,7 @@ body {
 
 .image-section {
     flex: 1;
-    background-image: url('./img.jpg');
+    background-image: url('./assets/img.jpg');
     background-size: cover;
     background-position: center;
 }
