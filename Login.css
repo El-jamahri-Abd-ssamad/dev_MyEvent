@@ -97,13 +97,13 @@ body {
     color: #333;
 }
 
-.signup {
+.signup ,.mdpoublie{
     margin-top: 10px;
     text-align: center;
     font-size: 14px;
 }
 
-.signup a {
+.signup a ,.mdpoublie a{
     color: #333;
     text-decoration: none;
     font-weight: bold;
