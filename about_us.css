@@ -1,0 +1,391 @@
+/* header Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f3f3f3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #B15B3B;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 9rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #60bdff;
+    font-weight: 500;
+}
+
+header .sign-in {
+    color: #B15B3B;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+header .sign {
+    display: flex;
+    border: #60bdff;
+    border-radius: 46px;
+    border-style: solid;
+}
+
+header .sign img{
+    width: 30px;
+    padding-top: 7px;
+    height: 30px;
+}
+
+header .logoo{
+    display: flex;
+    padding-top: 5px;
+}
+
+header .logoo img{
+    width: 40px;
+    height: 40px;
+}
+
+/*section style*/
+
+/* General Styles */
+
+
+.social-media-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffffff, #f3f3f3);
+    padding: 50px;
+    position: relative;
+}
+
+.content {
+    text-align: left;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+}
+
+/* Instagram Mockup */
+.instagram-mockup {
+    width: 350px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+
+/* Instagram Stories */
+.stories {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.story-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 2px solid #f06d7a;
+}
+
+.story-circle img {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+}
+.profile-picture img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+/* Instagram Post */
+.post {
+    width: 100%;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 50%;
+    border: 2px solid #f06d7a;
+}
+
+.username {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.menu {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.post-image {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    border-radius: 10px;
+    background-image: url('./assets/instagram_post.jpg.crdownload'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.post-footer {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.likes {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Hashtags */
+.hashtags {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+.hashtags p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.hashtags p.rotated {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 1.2rem;
+    color: #666;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #5a3e2b; /* Marron pour le style traditionnel */
+}
+
+h2 span {
+    font-style: italic;
+    color: #d0a56b; /* Doré pour un effet chic */
+}
+
+/* Section 3: Traditional Weddings */
+.section-3 {
+    padding: 40px 20px;
+    background-color: #f3f3f3;
+}
+
+.traditional-gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: rotate(-5deg); /* Inclinaison pour un style unique */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-container:hover {
+    transform: rotate(0);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section 4: Events */
+.section-4 {
+    padding: 40px 20px;
+    background-color: #f3f3f3;
+}
+
+.event-gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.event-gallery .image-container {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-gallery .image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.event-gallery .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* Footer style */
+footer {
+    background-color: #ECE0C2;
+    color: black;
+    padding: 2rem;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-section {
+    flex: 1;
+    padding: 1rem;
+}
+
+footer .footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #5E4200;
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-inline-start: -8rem;
+}
+
+footer .footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+footer .footer-section ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+footer .social-icons a {
+    margin: 0 0.5rem;
+}
+
+footer .social-icons a img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #5E4200;
+}
