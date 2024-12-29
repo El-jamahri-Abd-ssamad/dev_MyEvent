@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #66666640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body  .contact-container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Form Section */
+.form-section {
+    flex: 1;
+    background: linear-gradient(140deg, #6a11cb, #f9c946);
+    color: white;
+    padding: 30px;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group input, .form-group textarea {
+    flex: 2;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #333;
+}
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+    color: #ffffffd0;
+}
+
+form button {
+    width: 54%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    background: linear-gradient(140deg, #f9c946, #6a11cb);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.hr_class{
+    margin-left: 8px;
+}
+
+.hr_class2{
+    width: 63px;
+    margin-left: 3px;
+    border: 2px solid #8331b4;
+    border-radius: 20px;
+}
+
+.form-group input:focus , .form-group textarea:focus {
+    outline:none;
+}
+
+
+form button:hover {
+    background: linear-gradient(140deg,#6a11cb ,#f9c946);
+}
+
+/* Info Section */
+.info-section {
+    flex: 1;
+    padding: 30px;
+    background: #f8f8f8;
+}
+
+.info-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info-section p {
+    margin-bottom: 35px;
+    font-size: 1rem;
+    color: #666;
+}
+li{
+    display: flex;
+    gap: 10px;
+}
+li img{
+    width: 20px;
+    height: 20px;
+}
+.info-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-section ul li {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    color: #333;
+}
