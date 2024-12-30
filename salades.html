@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moroccan Restaurant</title>
+    <link rel="stylesheet" href="./salades.css">
+</head>
+<body>
+    <header>
+        <div class="logoo"> 
+            <a href="./Home.html"> <img src="./assets/2693710.png" alt="Calendrier"></a>
+            <div class="logo"> My Event</div>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="sign">
+            <img src="./assets/user-icon-png-transparent-17.jpg" alt="User">
+            <a href="./inscription.html" class="sign-in"> Sign In</a>
+        </div>
+        
+    </header>
+
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <form>
+            <!-- Zaalouk -->
+            <div class="dish-card">
+                <img src="./assets/Z.jpg" alt="Z">
+                <h3>Zaalouk</h3>
+                <p>Price: <span class="price">5 MAD</span></p>
+                <label>
+                    <input type="checkbox" name="liked-dishes" value="Zaalouk">
+                    Add to my table
+                </label>
+            </div>
+            
+            <!-- Salade Marocaine -->
+            <div class="dish-card">
+                <img src="./assets/Sm.jpg" alt="Sm">
+                <h3>Salade marocaine</h3>
+                <p>Price: <span class="price">6 MAD</span></p>
+                <label>
+                    <input type="checkbox" name="liked-dishes" value="Salade Marocaine">
+                    Add to my table
+                </label>
+            </div>
+            
+            <!-- Bakoula -->
+            <div class="dish-card">
+                <img src="./assets/Bakoula.jpg" alt="Bakoula">
+                <h3>Bakoula</h3>
+                <p>Price: <span class="price">5 MAD</span></p>
+                <label>
+                    <input type="checkbox" name="liked-dishes" value="Bakoula">
+                    Add to my table
+                </label>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="submit-section">
+                <button type="submit">Submit Preferences</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Moroccan Flavors. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

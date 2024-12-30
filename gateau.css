@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #B15B3B;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 9rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #60bdff;
+    font-weight: 500;
+}
+
+header .sign-in {
+    color: #B15B3B;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+header .sign {
+    display: flex;
+    border: #60bdff;
+    border-radius: 46px;
+    border-style: solid;
+}
+
+header .sign img{
+    width: 30px;
+    padding-top: 7px;
+    height: 30px;
+}
+
+header .logoo{
+    display: flex;
+    padding-top: 5px;
+}
+
+header .logoo img{
+    width: 40px;
+    height: 40px;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #d4a373;
+}
+
+.dish-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dish-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dish-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.dish-card h3 {
+    font-size: 1.5rem;
+    color: #d4a373;
+    margin: 15px 0;
+}
+
+.dish-card .price {
+    font-weight: bold;
+    color: #d4a373;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.submit-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-section button {
+    padding: 10px 20px;
+    background-color: #B15B3B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-section button:hover {
+    background-color: #913d2a;
+}

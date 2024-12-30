@@ -1,5 +1,171 @@
-h1{
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffff;
+}
+
+header {
     display: flex;
-    justify-content: center;
-    color: red;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #B15B3B;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 9rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #60bdff;
+    font-weight: 500;
+}
+
+header .sign-in {
+    color: #B15B3B;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+header .sign {
+    display: flex;
+    border: #60bdff;
+    border-radius: 46px;
+    border-style: solid;
+}
+
+header .sign img{
+    width: 30px;
+    padding-top: 7px;
+    height: 30px;
+}
+
+header .logoo{
+    display: flex;
+    padding-top: 5px;
+}
+
+header .logoo img{
+    width: 40px;
+    height: 40px;
+}
+
+/* Section Reservation */
+.reservation {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reservation h2 {
+    color: #918f8f;
+}
+
+.reservation form {
+    margin-top: 15px;
+}
+
+.reservation label {
+    font-size: 1.2rem;
+}
+
+.reservation input {
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation button {
+    padding: 10px 20px;
+    background-color: #60bdff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservation button:hover {
+    background-color: #4186d3;
+}
+
+/* Section Categories */
+.categories {
+    padding: 40px;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #918f8f;
+}
+
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.category-card {
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.category-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.category-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.category-card button {
+    padding: 10px 20px;
+    background-color: #B15B3B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-card button:hover {
+    background-color: #913d2a;
+}
+
+/* Footer */
+footer {
+    background-color: #ECE0C2;
+    text-align: center;
+    padding: 20px;
+    color: #5E4200;
 }

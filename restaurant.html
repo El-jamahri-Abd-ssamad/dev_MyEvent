@@ -3,10 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant </title>
     <link rel="stylesheet" href="./restaurant.css">
-    <title>Restaurant</title>
 </head>
 <body>
-    <h1>here ur restaurant</h1>
+    <header>
+        <div class="logoo"> 
+            <a href="./Home.html"> <img src="./assets/2693710.png" alt="Calendrier"></a>
+            <div class="logo"> My Event</div>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="sign">
+            <img src="./assets/user-icon-png-transparent-17.jpg" alt="User">
+            <a href="./inscription.html" class="sign-in"> Sign In</a>
+        </div>
+        
+    </header>
+
+    <section class="reservation">
+        <h2>Réservez votre table</h2>
+        <form>
+            <label for="table-count">Nombre de tables :</label>
+            <input type="number" id="table-count" name="table-count" min="1" max="20" required>
+            <button type="submit">Réserver</button>
+        </form>
+    </section>
+
+    <section class="categories">
+        <h2 class="section-title">Découvrez nos spécialités marocaines</h2>
+        <div class="categories-container">
+            <!-- Carte Salades -->
+            <div class="category-card">
+                <h3>Salades Marocaines</h3>
+                <p>Fraîches et savoureuses : zaalouk, taktouka, salade marocaine...</p>
+                <button onclick="location.href='./salades.html'">Découvrir</button>
+            </div>
+            <!-- Carte Plats Principaux -->
+            <div class="category-card">
+                <h3>Plats Principaux</h3>
+                <p>Tagines, couscous, pastillas... Des plats emblématiques du Maroc.</p>
+                <button onclick="location.href='./plats.html'">Voir les plats</button>
+            </div>
+            <!-- Carte Gâteaux -->
+            <div class="category-card">
+                <h3>Gâteaux Marocains</h3>
+                <p>Délices sucrés : chebakia, ghriba, cornes de gazelle...</p>
+                <button onclick="location.href='./gateau.html'">Commander</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Event - Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
