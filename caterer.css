@@ -1,4 +1,130 @@
-h1{
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #B15B3B;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 9rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #60bdff;
+    font-weight: 500;
+}
+
+header .sign-in {
+    color: #B15B3B;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+header .sign {
+    display: flex;
+    border: #60bdff;
+    border-radius: 46px;
+    border-style: solid;
+}
+
+header .sign img{
+    width: 30px;
+    padding-top: 7px;
+    height: 30px;
+}
+
+header .logoo{
+    display: flex;
+    padding-top: 5px;
+}
+
+header .logoo img{
+    width: 40px;
+    height: 40px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.server-profiles {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.server-profiles h2 {
     text-align: center;
-    color: red;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #B15B3B;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.profile-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.profile-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.profile-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #ECE0C2;
+    text-align: center;
+    padding: 20px;
+    color: #5E4200;
 }
