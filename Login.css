@@ -60,7 +60,7 @@ body {
     border-radius: 5px;
 }
 
-.form-section button {
+button {
     padding: 10px;
     font-size: 16px;
     background-color: #333;
@@ -68,6 +68,11 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+a{
+    display: flex;
+    justify-content: center;
 }
 
 .form-section button:hover {
