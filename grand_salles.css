@@ -1,0 +1,241 @@
+/* header Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #B15B3B;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 9rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #60bdff;
+    font-weight: 500;
+}
+
+header .sign-in {
+    color: #B15B3B;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+header .sign {
+    display: flex;
+    border: #60bdff;
+    border-radius: 46px;
+    border-style: solid;
+}
+
+header .sign img{
+    width: 30px;
+    padding-top: 7px;
+    height: 30px;
+}
+
+header .logoo{
+    display: flex;
+    padding-top: 5px;
+}
+
+header .logoo img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/*body styple*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.section1 {
+    background: url('./assets/grandes_salles.webp.crdownload') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.section1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.section1 h1 {
+    font-size: 3rem;
+    z-index: 1;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.section1 p {
+    font-size: 1.2rem;
+    z-index: 1;
+    margin-top: 10px;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hall {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.hall:hover {
+    transform: scale(1.03);
+}
+
+.hall img {
+    flex: 1 1 300px;
+    height: 360px;
+    width: 334px;
+    object-fit: cover;
+}
+
+.hall-content {
+    flex: 2 1 400px;
+    padding: 20px;
+}
+
+.hall-content h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+.hall-content p {
+    margin: 10px 0;
+}
+
+.hall-info {
+    margin: 15px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hall-info li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.hall-info li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #27ae60;
+}
+
+
+/* Footer style */
+footer {
+    background-color: #ECE0C2;
+    color: black;
+    padding: 2rem;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-section {
+    flex: 1;
+    padding: 1rem;
+}
+
+footer .footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #5E4200;
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-inline-start: -8rem;
+}
+
+footer .footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+footer .footer-section ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+footer .social-icons a {
+    margin: 0 0.5rem;
+}
+
+footer .social-icons a img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #5E4200;
+}
