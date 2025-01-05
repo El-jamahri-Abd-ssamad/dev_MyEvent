@@ -26,5 +26,5 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     }
 
     // Si tout est valide, rediriger vers la sélection des événements
-    window.location.href = 'selection_evenements.html';
+    window.location.href = 'Home.html';
 });

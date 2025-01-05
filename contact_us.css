@@ -122,3 +122,12 @@ li img{
     font-size: 1rem;
     color: #333;
 }
+
+.div_home{
+    float: right;
+    margin-top: 6.4rem;
+}
+
+.div_home img{
+    width: 4.3rem;
+}
