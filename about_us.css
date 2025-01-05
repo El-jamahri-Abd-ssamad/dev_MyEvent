@@ -1,12 +1,4 @@
 /* header Styles */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: cursive;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f3f3f3;
-}
 
 header {
     display: flex;
@@ -70,7 +62,6 @@ header .logoo img{
 
 /*section style*/
 
-/* General Styles */
 
 
 .social-media-section {
@@ -237,12 +228,11 @@ header .logoo img{
 }
 
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f3f3f3;
-    color: #333;
     line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
 h2 {
