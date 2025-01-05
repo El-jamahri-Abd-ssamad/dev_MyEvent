@@ -1,12 +1,4 @@
 /* header Styles */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: cursive;
-    line-height: 1.6;
-    color: #333;
-    background-color: #ffff;
-}
 
 header {
     display: flex;
@@ -74,8 +66,10 @@ header .logoo img{
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
 .section1 {
