@@ -9,12 +9,17 @@ body {
 }
 
 header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.4rem 2rem;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 header .logo {
@@ -40,11 +45,11 @@ header nav ul li a {
 header .sign-in {
     color: #B15B3B;
     padding: 0.5rem 0.8rem;
-    border-radius: 5px;
+    border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 25px;
 }
+
 header .sign {
     display: flex;
     border: #60bdff;
@@ -52,28 +57,33 @@ header .sign {
     border-style: solid;
 }
 
-header .sign img{
+header .sign img {
     width: 30px;
     padding-top: 7px;
     height: 30px;
 }
 
-header .logoo{
+header .logoo {
     display: flex;
     padding-top: 5px;
 }
 
-header .logoo img{
+header .logoo img {
     width: 40px;
     height: 40px;
 }
 
+/* Added heart h1 styling */
+heart h1 {
+    text-align: center;
+    font-style: italic;
+    background-color: #fff;
+    margin-top: 80px; /* Added margin to prevent header overlap */
+    padding: 20px;
+}
 
-
-heart h1{
-  text-align: center;
-  font-style: italic;
-  background-color: #fff;
+.content {
+    padding: 20px;
 }
 
 video{   
