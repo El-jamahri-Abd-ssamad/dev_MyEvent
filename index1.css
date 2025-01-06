@@ -98,10 +98,9 @@ heart h1 {
 heart h1{
   text-align: center;
   font-style: italic;
-  background-color: #fff;
 }
 
-video{   
+heart img{
     width: 100%;
     height: 100%;
     display: block;
